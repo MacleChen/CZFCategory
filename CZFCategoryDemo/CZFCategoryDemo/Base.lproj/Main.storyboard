@@ -21,49 +21,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ai6-gO-1uq">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ai6-gO-1uq">
                                 <rect key="frame" x="77" y="56" width="221" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.98823529409999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="221" id="Sjj-lY-bnB"/>
-                                    <constraint firstAttribute="height" constant="99" id="VFC-z0-x2N"/>
-                                </constraints>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oSa-bq-CGM">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oSa-bq-CGM">
                                 <rect key="frame" x="77" y="205" width="221" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.98823529409999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="221" id="T9M-t6-hgg"/>
-                                    <constraint firstAttribute="height" constant="99" id="h3l-TL-1xR"/>
-                                </constraints>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sNm-Q0-pKX">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sNm-Q0-pKX">
                                 <rect key="frame" x="77" y="352" width="221" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.98823529409999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="99" id="Aqy-di-nQq"/>
-                                    <constraint firstAttribute="width" constant="221" id="dlV-sX-mTe"/>
-                                </constraints>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="Ai6-gO-1uq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="36" id="6Pq-Cg-qGh"/>
-                            <constraint firstItem="sNm-Q0-pKX" firstAttribute="top" secondItem="oSa-bq-CGM" secondAttribute="bottom" constant="48" id="ISd-LJ-MUi"/>
-                            <constraint firstItem="oSa-bq-CGM" firstAttribute="top" secondItem="Ai6-gO-1uq" secondAttribute="bottom" constant="50" id="j0l-lb-zPP"/>
-                            <constraint firstItem="Ai6-gO-1uq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="o5g-nZ-TZa"/>
-                            <constraint firstItem="oSa-bq-CGM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="twU-Hl-Sdd"/>
-                            <constraint firstItem="sNm-Q0-pKX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uWa-Ho-Sc8"/>
-                        </constraints>
                     </view>
                     <connections>
                         <outlet property="button1" destination="Ai6-gO-1uq" id="hkJ-8l-jGC"/>

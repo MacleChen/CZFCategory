@@ -15,7 +15,9 @@
 		393767CD1EF907870023A650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 393767CB1EF907870023A650 /* LaunchScreen.storyboard */; };
 		393767D81EF907870023A650 /* CZFCategoryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 393767D71EF907870023A650 /* CZFCategoryDemoTests.m */; };
 		393767E31EF907870023A650 /* CZFCategoryDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 393767E21EF907870023A650 /* CZFCategoryDemoUITests.m */; };
-		393767F41EF908740023A650 /* UIButton+UIButtonImageWithLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 393767F31EF908740023A650 /* UIButton+UIButtonImageWithLable.m */; };
+		393767FD1EF91E120023A650 /* UIButton+UIButtonImageWithLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 393767F81EF91E120023A650 /* UIButton+UIButtonImageWithLable.m */; };
+		393767FE1EF91E120023A650 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 393767FA1EF91E120023A650 /* UIView+Extension.m */; };
+		393767FF1EF91E120023A650 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 393767FC1EF91E120023A650 /* UIView+MJExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +54,13 @@
 		393767DE1EF907870023A650 /* CZFCategoryDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CZFCategoryDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		393767E21EF907870023A650 /* CZFCategoryDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZFCategoryDemoUITests.m; sourceTree = "<group>"; };
 		393767E41EF907870023A650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		393767F11EF908740023A650 /* CZFCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZFCategory.h; sourceTree = "<group>"; };
-		393767F21EF908740023A650 /* UIButton+UIButtonImageWithLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+UIButtonImageWithLable.h"; sourceTree = "<group>"; };
-		393767F31EF908740023A650 /* UIButton+UIButtonImageWithLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+UIButtonImageWithLable.m"; sourceTree = "<group>"; };
+		393767F61EF91E110023A650 /* CZFCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZFCategory.h; sourceTree = "<group>"; };
+		393767F71EF91E120023A650 /* UIButton+UIButtonImageWithLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+UIButtonImageWithLable.h"; sourceTree = "<group>"; };
+		393767F81EF91E120023A650 /* UIButton+UIButtonImageWithLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+UIButtonImageWithLable.m"; sourceTree = "<group>"; };
+		393767F91EF91E120023A650 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		393767FA1EF91E120023A650 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		393767FB1EF91E120023A650 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
+		393767FC1EF91E120023A650 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +111,7 @@
 		393767BC1EF907870023A650 /* CZFCategoryDemo */ = {
 			isa = PBXGroup;
 			children = (
-				393767F01EF908740023A650 /* CZFCategory */,
+				393767F51EF91E110023A650 /* CZFCategory */,
 				393767C01EF907870023A650 /* AppDelegate.h */,
 				393767C11EF907870023A650 /* AppDelegate.m */,
 				393767C31EF907870023A650 /* ViewController.h */,
@@ -145,12 +151,16 @@
 			path = CZFCategoryDemoUITests;
 			sourceTree = "<group>";
 		};
-		393767F01EF908740023A650 /* CZFCategory */ = {
+		393767F51EF91E110023A650 /* CZFCategory */ = {
 			isa = PBXGroup;
 			children = (
-				393767F11EF908740023A650 /* CZFCategory.h */,
-				393767F21EF908740023A650 /* UIButton+UIButtonImageWithLable.h */,
-				393767F31EF908740023A650 /* UIButton+UIButtonImageWithLable.m */,
+				393767F61EF91E110023A650 /* CZFCategory.h */,
+				393767F71EF91E120023A650 /* UIButton+UIButtonImageWithLable.h */,
+				393767F81EF91E120023A650 /* UIButton+UIButtonImageWithLable.m */,
+				393767F91EF91E120023A650 /* UIView+Extension.h */,
+				393767FA1EF91E120023A650 /* UIView+Extension.m */,
+				393767FB1EF91E120023A650 /* UIView+MJExtension.h */,
+				393767FC1EF91E120023A650 /* UIView+MJExtension.m */,
 			);
 			path = CZFCategory;
 			sourceTree = "<group>";
@@ -291,9 +301,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				393767FE1EF91E120023A650 /* UIView+Extension.m in Sources */,
+				393767FF1EF91E120023A650 /* UIView+MJExtension.m in Sources */,
 				393767C51EF907870023A650 /* ViewController.m in Sources */,
 				393767C21EF907870023A650 /* AppDelegate.m in Sources */,
-				393767F41EF908740023A650 /* UIButton+UIButtonImageWithLable.m in Sources */,
+				393767FD1EF91E120023A650 /* UIButton+UIButtonImageWithLable.m in Sources */,
 				393767BF1EF907870023A650 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -532,6 +544,7 @@
 				393767E91EF907870023A650 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		393767EA1EF907870023A650 /* Build configuration list for PBXNativeTarget "CZFCategoryDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +553,7 @@
 				393767EC1EF907870023A650 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		393767ED1EF907870023A650 /* Build configuration list for PBXNativeTarget "CZFCategoryDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +562,7 @@
 				393767EF1EF907870023A650 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -34,6 +34,8 @@
     
     [self.button3 setRightAndleftTextWithImage:showImage withTitle:@"button3" forState:UIControlStateNormal andImageFontValue:15 andTitleFontValue:15 andTextAlignment:UIControlContentHorizontalAlignmentLeft];
     
+    self.button3.height = 150;
+    
 }
 
 
