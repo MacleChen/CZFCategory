@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CZFCategory"
-  s.version      = "0.0.2"
-  s.summary      = "增加view的相关类别"
+  s.version      = "0.0.3"
+  s.summary      = "增加Button的block的响应事件方法"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
